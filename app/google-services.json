@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "103327045695",
+    "firebase_url": "https://skysofttaskone.firebaseio.com",
+    "project_id": "skysofttaskone",
+    "storage_bucket": "skysofttaskone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103327045695:android:7d25a522918fc463",
+        "android_client_info": {
+          "package_name": "com.example.disablak.skysofttaskone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103327045695-7u9h8akaq4rrj72nbfm6i9e5o0cos72e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.disablak.skysofttaskone",
+            "certificate_hash": "8a1fa559964c0c944b7662448c156d66e8425734"
+          }
+        },
+        {
+          "client_id": "103327045695-if3ia9dkd1hree5kcasd8uaqb8old5lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq5K9S0_a9X65OdVZBOKMAQWO5NARq2Bc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103327045695-if3ia9dkd1hree5kcasd8uaqb8old5lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
