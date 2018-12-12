@@ -3,9 +3,6 @@
     package="com.example.disablak.skysofttaskone"
     android:versionCode="1"
     android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="22" />
-
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -16,7 +13,7 @@
         android:supportsRtl="true"
 
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoginPage">
             <intent-filter>
                 <action
                     android:name="android.intent.action.MAIN"
@@ -26,21 +23,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
+            android:name=".ProfilePage"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Profile"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".HomeTwo"
+            android:name=".HomePage"
             android:label="@string/title_activity_home_two"
             android:theme="@style/AppTheme" />
-        <activity android:name=".TestAdapter" />
-
-
-
 
 
         <meta-data android:name="com.facebook.sdk.ApplicationId"
